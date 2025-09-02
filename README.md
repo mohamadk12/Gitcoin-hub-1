@@ -1,5 +1,5 @@
 
-import requests
+import request
 
 # -----------------------
 # Replace with your own information
