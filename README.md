@@ -7,7 +7,7 @@ GITHUB_TOKEN = "your_personal_access_token
 REPO = "username/repo_name"  # Example: myuser/myrepo 
 TITLE = "New automated issue"
 BODY = "This is a test issue created via the GitHub API."
-# -------------------------
+# -------------------------f4
 
 url = f"https://api.github.com/repos/{REPO}/issues"
 headers = {"Authorization": f"token {GITHUB_TOKEN}"}
