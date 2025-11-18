@@ -3,7 +3,7 @@ import request
 
 # --------------------- 
 # Replace with your own information 
-GITHUB_TOKEN = "your_personal_access_token y
+GITHUB_TOKEN = "your_personal_access_token 
 REPO = "username/repo_name"  # Example: myuser/myrepo 
 TITLE = "New automated issue"
 BODY = "This is a test issue created via the GitHub API."
