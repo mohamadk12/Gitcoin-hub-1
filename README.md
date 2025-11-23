@@ -15,7 +15,7 @@ data = {"title": TITLE, "body": BODY}
 
 response = requests.post(url, headers=headers, json=data)
 
-if response.status_code == 201: 4
+if response.status_code == 201: 
     print("✅ Issue created:", response.json()["html_url"])
 else:
     print("❌ Error:", response.status_code, response.text)
