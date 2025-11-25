@@ -1,8 +1,8 @@
 
 import request 
 
-# ------------------t--- 
-# Replace with your own information 
+# --------------------- 
+# Replace with your wn information 
 GITHUB_TOKEN = "your_personal_access_token 
 REPO = "username/repo_name"  # Example: myuser/myrepo 
 TITLE = "New automated issue"
