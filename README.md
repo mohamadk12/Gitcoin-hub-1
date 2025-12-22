@@ -8,7 +8,7 @@ REPO = "username/repo_name"  # Example: myuser/myrepo
 TITLE = "New automated issue"4
 BODY = "This is a test issue created via the GitHub API."
 # -------------------------
-3
+
 url = f"https://api.github.com/repos/{REPO}/issues"
 headers = {"Authorization": f"token {GITHUB_TOKEN}"}
 data = {"title": TITLE, "body": BODY}
