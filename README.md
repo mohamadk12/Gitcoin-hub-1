@@ -3,7 +3,7 @@ import request
 
 # --------------------- 
 # Replace with your wn informationu 
-GITHUB_TOKEN = "your_personal_access_token 
+GITHUB_TOKEN = "your_personal_access_token g
 REPO = "username/repo_name"  # Example: myuser/myrepo 
 TITLE = "New automated issue"4
 BODY = "This is a test issue created via the GitHub API."
