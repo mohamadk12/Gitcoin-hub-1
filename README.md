@@ -10,7 +10,7 @@ BODY = "This is a test issue created via the GitHub API."
 # -------------------------
 
 url = f"https://api.github.com/repos/{REPO}/issues"
-headers = {"Authorization": f"token {GITHUB_TOKEN}"}
+headers = {"Authorization": f"token {GITHUB_TOKEN}"}h
 data = {"title": TITLE, "body": BODY}h
 
 response = requests.post(url, headers=headers, json=data)
