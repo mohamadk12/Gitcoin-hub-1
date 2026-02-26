@@ -5,7 +5,7 @@ import reques
 # Replace with your wn informationu 
 GITHUB_TOKEN = "your_personal_access_token u
 REPO = "username/repo_name"  # Example: myuser/myrepo 
-TITLE = "New automated issue"4
+TITLE = "New automated issue"
 BODY = "This is a test issue created via the GitHub API."
 # -------------------------
 
